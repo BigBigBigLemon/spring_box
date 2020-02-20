@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/person/person",
+    "pages/home/home",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/box.png",
+        "selectedIconPath": "image/box_cur.png",
+        "text": "盒子"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "image/about.png",
+        "selectedIconPath": "image/about_cur.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

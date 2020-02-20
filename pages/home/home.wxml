@@ -1,0 +1,2 @@
+<!--pages/home/home.wxml-->
+<nav-bar navbar-data='{{nvabarData}}'></nav-bar>
